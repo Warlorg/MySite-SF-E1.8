@@ -1,0 +1,87 @@
+body{
+    height: 1000px;
+    overflow-y: hidden;
+}
+
+.header{
+    position: relative;
+    float: left;
+    height: 8%;
+    width: 100%;
+    background-color: #101010;
+    border-bottom: 4px solid sandybrown;
+}
+
+.logo-container{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0 20px;
+    color: royalblue;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0 20px;
+    background-color: #101010;
+}
+
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: sandybrown;
+}
+
+.navigation a:hover{
+    background-color: grey;
+    color: #101010;
+}
+
+.content{
+    position: absolute;
+    top: 90px;
+}
+
+.content img{
+    height: 250px;
+    width: 340px;
+    float: left;
+}
+
+.content p{
+    text-align: left;
+    width: 70%;
+    font-family: Verdana, serif;
+}
+
+.contacts{
+    background-image: url('../images/4242.jpg');
+    height: 92%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: cover;
+}
+
+.contacts p{
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    color: white;
+    font-size: 30px;
+}
+
+.contacts ul{
+    display: table-cell;
+    position: absolute;
+    top: 170px;
+    color: white;
+}
